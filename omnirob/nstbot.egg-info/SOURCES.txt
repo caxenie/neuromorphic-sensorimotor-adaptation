@@ -1,0 +1,17 @@
+setup.py
+nstbot/__init__.py
+nstbot/connection.py
+nstbot/nstbot.py
+nstbot/omnibot.py
+nstbot/retina_debug.py
+nstbot/retinabot.py
+nstbot.egg-info/PKG-INFO
+nstbot.egg-info/SOURCES.txt
+nstbot.egg-info/dependency_links.txt
+nstbot.egg-info/top_level.txt
+nstbot/nengo/__init__.py
+nstbot/nengo/omnibot_network.py
+nstbot/nengo/omnibot_network_test.py
+nstbot/server/__init__.py
+nstbot/server/retina_server.py
+nstbot/server/server.py
