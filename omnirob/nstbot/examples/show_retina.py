@@ -3,7 +3,7 @@ import nstbot
 import time
 
 bot = nstbot.OmniBot()
-bot.connect(nstbot.Serial('/home/caxenie/dev/ttyUSB0', baud=12000000))
+bot.connect(nstbot.Serial('/home/caxenie/dev/ttyUSB3', baud=12000000))
 time.sleep(1)
 bot.retina(True)
 bot.show_image()
