@@ -1,7 +1,6 @@
 import vrep
 import ctypes
 import numpy as np
-import math
 
 vrep_mode = vrep.simx_opmode_oneshot
 
