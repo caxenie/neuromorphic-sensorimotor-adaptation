@@ -11,4 +11,4 @@ bot.track_frequencies(freqs=[1000])
 while True:
     dvs_data = bot.get_frequency_info(0)
     print dvs_data
-    time.sleep(0.2)
+    time.sleep(0.05)

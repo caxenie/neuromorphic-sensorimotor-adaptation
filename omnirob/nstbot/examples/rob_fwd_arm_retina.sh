@@ -1,2 +1,2 @@
 #!/bin/sh
-sudo initerm.py /home/caxenie/dev/ttyUSB3 12000000
+miniterm.py /home/caxenie/dev/ttyUSB3 12000000
