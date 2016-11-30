@@ -12,7 +12,8 @@ while True:
 
     # base motion
     bot.motor(0, 0, 0.5)
-
+    time.sleep(1)
+	
     # read sensor
     joints = bot.sensor['servo']
 
