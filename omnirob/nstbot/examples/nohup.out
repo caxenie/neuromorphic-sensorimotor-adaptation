@@ -1,0 +1,120 @@
+/media/data_warehouse/research/devel/neuromorphic_sensorimotor_adaptation/omnirob/nstbot/retinabot.py:293: RuntimeWarning: invalid value encountered in double_scalars
+  c = sum(ww) * self.track_certainty_scale / dt
+/media/data_warehouse/research/devel/neuromorphic_sensorimotor_adaptation/omnirob/nstbot/retinabot.py:293: RuntimeWarning: invalid value encountered in double_scalars
+  c = sum(ww) * self.track_certainty_scale / dt
+/media/data_warehouse/research/devel/neuromorphic_sensorimotor_adaptation/omnirob/nstbot/retinabot.py:293: RuntimeWarning: divide by zero encountered in double_scalars
+  c = sum(ww) * self.track_certainty_scale / dt
+/media/data_warehouse/research/devel/neuromorphic_sensorimotor_adaptation/omnirob/nstbot/retinabot.py:295: RuntimeWarning: invalid value encountered in double_scalars
+  self.track_certainty[i] += (1-decay) * c
+/media/data_warehouse/research/devel/neuromorphic_sensorimotor_adaptation/omnirob/nstbot/retinabot.py:293: RuntimeWarning: invalid value encountered in double_scalars
+  c = sum(ww) * self.track_certainty_scale / dt
+/media/data_warehouse/research/devel/neuromorphic_sensorimotor_adaptation/omnirob/nstbot/retinabot.py:293: RuntimeWarning: divide by zero encountered in double_scalars
+  c = sum(ww) * self.track_certainty_scale / dt
+/media/data_warehouse/research/devel/neuromorphic_sensorimotor_adaptation/omnirob/nstbot/retinabot.py:295: RuntimeWarning: invalid value encountered in double_scalars
+  self.track_certainty[i] += (1-decay) * c
+/media/data_warehouse/research/devel/neuromorphic_sensorimotor_adaptation/omnirob/nstbot/retinabot.py:293: RuntimeWarning: divide by zero encountered in double_scalars
+  c = sum(ww) * self.track_certainty_scale / dt
+/media/data_warehouse/research/devel/neuromorphic_sensorimotor_adaptation/omnirob/nstbot/retinabot.py:295: RuntimeWarning: invalid value encountered in double_scalars
+  self.track_certainty[i] += (1-decay) * c
+/media/data_warehouse/research/devel/neuromorphic_sensorimotor_adaptation/omnirob/nstbot/retinabot.py:293: RuntimeWarning: invalid value encountered in double_scalars
+  c = sum(ww) * self.track_certainty_scale / dt
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/media/data_warehouse/research/devel/neuromorphic_sensorimotor_adaptation/omnirob/nstbot/retinabot.py", line 143, in sensor_loop
+    data = self.connection.receive()
+  File "/media/data_warehouse/research/devel/neuromorphic_sensorimotor_adaptation/omnirob/nstbot/connection.py", line 8, in receive
+    return self.conn.read(1024)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 468, in read
+    'device reports readiness to read but returned no data '
+SerialException: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/media/data_warehouse/research/devel/neuromorphic_sensorimotor_adaptation/omnirob/nstbot/retinabot.py", line 143, in sensor_loop
+    data = self.connection.receive()
+  File "/media/data_warehouse/research/devel/neuromorphic_sensorimotor_adaptation/omnirob/nstbot/connection.py", line 8, in receive
+    return self.conn.read(1024)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 468, in read
+    'device reports readiness to read but returned no data '
+SerialException: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/media/data_warehouse/research/devel/neuromorphic_sensorimotor_adaptation/omnirob/nstbot/retinabot.py", line 143, in sensor_loop
+    data = self.connection.receive()
+  File "/media/data_warehouse/research/devel/neuromorphic_sensorimotor_adaptation/omnirob/nstbot/connection.py", line 8, in receive
+    return self.conn.read(1024)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 468, in read
+    'device reports readiness to read but returned no data '
+SerialException: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+
+Exception in thread Thread-1:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/threading.py", line 801, in __bootstrap_inner
+    self.run()
+  File "/usr/lib/python2.7/threading.py", line 754, in run
+    self.__target(*self.__args, **self.__kwargs)
+  File "/media/data_warehouse/research/devel/neuromorphic_sensorimotor_adaptation/omnirob/nstbot/retinabot.py", line 143, in sensor_loop
+    data = self.connection.receive()
+  File "/media/data_warehouse/research/devel/neuromorphic_sensorimotor_adaptation/omnirob/nstbot/connection.py", line 8, in receive
+    return self.conn.read(1024)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 468, in read
+    'device reports readiness to read but returned no data '
+SerialException: device reports readiness to read but returned no data (device disconnected or multiple access on port?)
+
+Traceback (most recent call last):
+  File "nengo_omnibot_init.py", line 25, in <module>
+    bot_control(base_array)
+  File "nengo_omnibot_init.py", line 17, in bot_control
+    bot.motor(x[0], x[1], x[2], msg_period=0.1)
+  File "/media/data_warehouse/research/devel/neuromorphic_sensorimotor_adaptation/omnirob/nstbot/omnibot.py", line 28, in motor
+    self.send('motor', cmd, msg_period=msg_period)
+  File "/media/data_warehouse/research/devel/neuromorphic_sensorimotor_adaptation/omnirob/nstbot/nstbot.py", line 20, in send
+    self.connection.send(message)
+  File "/media/data_warehouse/research/devel/neuromorphic_sensorimotor_adaptation/omnirob/nstbot/connection.py", line 6, in send
+    self.conn.write(message)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 537, in write
+    raise SerialException('write failed: {}'.format(v))
+serial.serialutil.SerialException: write failed: [Errno 5] Input/output error
+Error in atexit._run_exitfuncs:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "/media/data_warehouse/research/devel/neuromorphic_sensorimotor_adaptation/omnirob/nstbot/omnibot.py", line 11, in disconnect
+    self.motor(0, 0, 0)
+  File "/media/data_warehouse/research/devel/neuromorphic_sensorimotor_adaptation/omnirob/nstbot/omnibot.py", line 28, in motor
+    self.send('motor', cmd, msg_period=msg_period)
+  File "/media/data_warehouse/research/devel/neuromorphic_sensorimotor_adaptation/omnirob/nstbot/nstbot.py", line 20, in send
+    self.connection.send(message)
+  File "/media/data_warehouse/research/devel/neuromorphic_sensorimotor_adaptation/omnirob/nstbot/connection.py", line 6, in send
+    self.conn.write(message)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 537, in write
+    raise SerialException('write failed: {}'.format(v))
+SerialException: write failed: [Errno 5] Input/output error
+Error in sys.exitfunc:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/atexit.py", line 24, in _run_exitfuncs
+    func(*targs, **kargs)
+  File "/media/data_warehouse/research/devel/neuromorphic_sensorimotor_adaptation/omnirob/nstbot/omnibot.py", line 11, in disconnect
+    self.motor(0, 0, 0)
+  File "/media/data_warehouse/research/devel/neuromorphic_sensorimotor_adaptation/omnirob/nstbot/omnibot.py", line 28, in motor
+    self.send('motor', cmd, msg_period=msg_period)
+  File "/media/data_warehouse/research/devel/neuromorphic_sensorimotor_adaptation/omnirob/nstbot/nstbot.py", line 20, in send
+    self.connection.send(message)
+  File "/media/data_warehouse/research/devel/neuromorphic_sensorimotor_adaptation/omnirob/nstbot/connection.py", line 6, in send
+    self.conn.write(message)
+  File "/usr/local/lib/python2.7/dist-packages/serial/serialposix.py", line 537, in write
+    raise SerialException('write failed: {}'.format(v))
+serial.serialutil.SerialException: write failed: [Errno 5] Input/output error
