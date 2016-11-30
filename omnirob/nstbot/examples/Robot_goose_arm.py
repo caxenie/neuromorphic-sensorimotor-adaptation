@@ -68,7 +68,7 @@ arm_sine_wave = np.zeros(5)
 
 # Initial gains for the sine waves that move the joints
 # until the robot finds the blinking led
-arm_sin_gains_init = np.array([1.0,2.0,0.0,0.0,0.0])/10.
+arm_sin_gains_init = np.array([1.5,3.0,0.0,0.0,0.0])/10.
 arm_sin_gains = np.copy(arm_sin_gains_init)
 arm_sin_freq = 8
 def arm_osc(t):
@@ -295,7 +295,7 @@ with model:
                 print "Got it!"
         else:
             print "Parm:", x[2]
-            base_array[:] = [0.0,0.0,0.5]
+            base_array[:] = [0.0,0.0,0.7]
         
 
     base_osc = nengo.Node(base_oscillator,size_in=3,size_out=0)
